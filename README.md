@@ -34,7 +34,7 @@ To plot the distribution of each numerical variable within each 'decade' group, 
 of histograms or density plots for each feature. This will allow us to visualize how the values of
 each feature are distributed across different 'decade' categories.
 
-<img width="785" alt="plot1" src="https://private-user-images.githubusercontent.com/113529675/269432097-f873f6be-363a-4733-b4c7-9805a73ee45a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTUyNDgzMTEsIm5iZiI6MTY5NTI0ODAxMSwicGF0aCI6Ii8xMTM1Mjk2NzUvMjY5NDMyMDk3LWY4NzNmNmJlLTM2M2EtNDczMy1iNGM3LTk4MDVhNzNlZTQ1YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkyMFQyMjEzMzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00NTE0ZTkwYzdiNmM3MWQzNDU5NmFiYTFhZWE0NjhhNTZiZDgzNmZkZjM2Y2QxNDE3ZjU1ZWRiZDFlNjgzZjBkJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.17xCQBDPgK0aO-qGTbo8ByB8odlt6e3FMlVKQWPtuEI"> 
+<img width="785" alt="plot1" src="https://user-images.githubusercontent.com/113529675/271364418-e5bf8864-6619-4ee5-9538-8a4eeb5b7024.png"> 
 
 In the box plots we are comparing the X-generation (60s-70s) to the Z-generation (80s-90s) and
 the Z-generation (00s-10s) for the features ‘danceability’, ‘energy’, ‘loudness’, ‘acousticness’,
@@ -56,7 +56,7 @@ To plot the distribution of each numerical variable within each 'decade' group, 
 of histograms or density plots for each feature(now just 3 are displayed). This will allow us to visualize how the values of
 each feature are distributed across different 'decade' categories.
 
-<img width="785" alt="plot1" src="https://private-user-images.githubusercontent.com/113529675/269431381-e653b308-fc84-4d3e-885f-4db968221ef7.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTUyNDgwMzUsIm5iZiI6MTY5NTI0NzczNSwicGF0aCI6Ii8xMTM1Mjk2NzUvMjY5NDMxMzgxLWU2NTNiMzA4LWZjODQtNGQzZS04ODVmLTRkYjk2ODIyMWVmNy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkyMFQyMjA4NTVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03OWZjMjk4ZTliZTUwNDQzMmVmODhkOGMyM2ZjZmZhMjQ3NGMyZTE5MjlmYTQ5MDMxNmYyMDFjODM0NTU1ZTI2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.gXCkYLI-gMZ3xpi1_z3zS2KQytAT0YgIzKUnhZeK2hU"> 
+<img width="785" alt="plot1" src="https://user-images.githubusercontent.com/113529675/271364576-722d7f5a-b039-47eb-9b9c-74299a302457.png"> 
 
 ## Models
 
@@ -71,7 +71,7 @@ We examined the feature importances obtained from the Random Forest classifier, 
 the features based on their significance in predicting the decade labels. The bar plot reveals the
 following ranking of features from the most to the least.
 
-<img width="785" alt="plot1" src="https://private-user-images.githubusercontent.com/113529675/269432202-27f06508-59b7-4301-be64-e40b0e3b4f38.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE2OTUyNDgzNjUsIm5iZiI6MTY5NTI0ODA2NSwicGF0aCI6Ii8xMTM1Mjk2NzUvMjY5NDMyMjAyLTI3ZjA2NTA4LTU5YjctNDMwMS1iZTY0LWU0MGIwZTNiNGYzOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBSVdOSllBWDRDU1ZFSDUzQSUyRjIwMjMwOTIwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDIzMDkyMFQyMjE0MjVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00MzQ3YzNmNjhmOWY1MDUwMDBmYjQ5YTgwZmFkMWU1MDlkMzY5MWI3NTA0MGIyOWY4OWQyZWY1M2YyNjJhZWRhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.HTgFXSr3Bb4EWI4Qy0nxlBoTBIx2-3ex1JwwJlWsXjM"> 
+<img width="785" alt="plot1" src="https://user-images.githubusercontent.com/113529675/271364688-101f8548-0013-497c-be84-ac9603827929.png"> 
 
 By understanding the order of feature importances, we can gain valuable insights into the distinct
 musical characteristics that define each decade and use this knowledge to better interpret our
